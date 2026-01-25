@@ -45,3 +45,61 @@ p {
   height: 48px;
   cursor: pointer;
 }
+
+/* --- Legal pages override --- */
+
+body.legal-page {
+  display: block;
+  align-items: initial;
+  justify-content: initial;
+}
+
+.legal {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+  color: white;
+}
+
+.legal h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.legal h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.legal p,
+.legal li {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.legal ul {
+  margin-left: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+.legal a {
+  color: white;
+  text-decoration: underline;
+}
+
+.footer {
+  margin-top: 3rem;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
