@@ -89,17 +89,20 @@ body.legal-page {
 }
 
 .footer {
-  margin-top: 3rem;
-  font-size: 0.85rem;
-  color: rgba(255, 255, 255, 0.85);
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  gap: 24px; /* ← spacing knob */
+  font-size: 14px;
 }
 
 .footer a {
-  color: white;
-  text-decoration: none;
+  color: #000000;
+  text-decoration: underline;
+  opacity: 0.9;
 }
 
 .footer a:hover {
-  text-decoration: underline;
+  opacity: 1;
 }
 
